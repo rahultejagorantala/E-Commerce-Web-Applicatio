@@ -1,0 +1,15 @@
+---
+application:
+  name: "react-redux-shopping-app"
+  project: "nodejs-backend"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "shoppy"
+  version: "8.0"
+routers:
+- name: "main-react-redux-shopping-app"
+  routes:
+  - application_name: "react-redux-shopping-app"
+    paths:
+    - "/*"
