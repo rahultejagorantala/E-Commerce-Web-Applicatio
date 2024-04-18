@@ -1,0 +1,308 @@
+/* Set position of main_div to absolute */
+.main_div{
+    position: absolute;
+}
+
+/* Display navbar-collapse when in */
+.navbar-collapse.in {
+  display: block !important;
+}
+
+/* Set styles for login button */
+.login_btn{
+    float: right;
+}
+
+/* Set loader container styles */
+.loader-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8F8F8AD;
+}
+.loader{
+    left: 50%;
+    top: 30%;
+    z-index: 1000;
+    position: absolute;
+}
+
+/* Import Google Font */
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/* Set body styles using imported font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+/* Set paragraph styles */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+/* Set anchor styles */
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 15px 10px;
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar button styles */
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+/* Line separator styles */
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* Sidebar wrapper styles */
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* Sidebar styles */
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #911247;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+/* Active sidebar styles */
+#sidebar.active {
+    margin-left: -250px;
+}
+
+/* Sidebar header styles */
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #97054e;
+}
+
+/* Sidebar ul components styles */
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+/* Sidebar ul paragraph styles */
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+/* Sidebar ul list item anchor styles */
+#sidebar ul li a {
+    color: #f5f5f5;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+/* Sidebar ul list item anchor hover styles */
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+/* Active sidebar ul list item anchor styles */
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+/* Set position relative for data-toggle collapse */
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+/* Dropdown toggle styles */
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+/* Nested ul anchor styles */
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+/* CTAs unordered list styles */
+ul.CTAs {
+    padding: 20px;
+}
+
+/* CTAs anchor styles */
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Download anchor styles */
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+/* Article anchor styles */
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* Content styles */
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+/* Signup form styles */
+.signupForm{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Login form styles */
+.login_form{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Product image styles */
+#product_img{
+    height: 25vh;
+    object-fit: contain;
+}
+
+/* Cart product image styles */
+#cart_product_img{
+    height: 20vh;
+    object-fit: contain;
+} 
+
+/* Button color styles */
+#button_color{
+    background-color: #E72E77;
+    color: white;
+}
+.button_color{
+    background-color: #E72E77;
+    color: white;
+}
+
+/* Product container styles */
+#product_container{
+    margin-top: 50px;
+    width: 100%;
+}
+
+/* Product card styles */
+#p_card{
+    width: 100%;
+}
+
+/* Header styles */
+#header{
+    background-color: #E72E77;
+}
+
+/* Header anchor styles */
+#header a{
+    color: white;
+}
+
+/* Footer styles */
+#footer{
+    background-color: #9b0a44;
+}
+
+/* Icon text styles */
+#icon_text{
+    font-family: "Fantasy" ;
+}
+
+/* Cart icon styles */
+#cart_icon {
+    float: right;
+    text-align: right;
+}
+
+/* Counter styles */
+.fa-stack[data-count]:after{
+  position:absolute;
+  right:0%;
+  top:0%;
+  content: attr(data-count);
+  font-size:40%;
+  padding:.6em;
+  border-radius:999px;
+  line-height:.75em;
+  color: white;
+  text-align:center;
+  min-width:2em;
+  font-weight:bold;
+  background: white;
+  border-style:solid;
+}
+.fa-circle {
+  color:#DF0000;
+}
+
+/* Red cart styles */
+.red-cart {
+    color: #DF0000; 
+    background:white;
+}
