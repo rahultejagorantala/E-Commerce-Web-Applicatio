@@ -52,7 +52,7 @@ class Footer extends React.Component {
       <p className="d-flex text-white">Demo React-Redux App</p>
       </div>
       <div className='col-7'>
-      <p className="d-flex text-white">Made with 💖 by Gaurav Singla</p>
+      <p className="d-flex text-white">Made with 💖 </p>
   
       </div>
 
