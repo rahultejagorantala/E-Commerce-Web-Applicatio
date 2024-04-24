@@ -1,4 +1,4 @@
-# react-redux-shopping-app
+# shopping-app
 
 Shoppy is a custom shopping webiste build by using MERN (Mysql, Express, React.js, Node.js). 
 
